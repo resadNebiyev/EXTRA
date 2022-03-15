@@ -1,0 +1,77 @@
+/*reset styles*/
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/*home-page section*/
+#home-page {
+    width: 100%;
+    background-image: url(img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.7;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.page-text {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*about*/
+#info-section {
+    background-color: rgba(128, 128, 128, 0.179);
+}
+
+.info {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.info p {
+    color: #666;
+    line-height: 1.6em;
+}
+
+#image-2 .img {
+    background-image: url(img/image2.jpg);
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.image-2-text {
+    background-color: transparent;
+}
+
+#image-3 .img {
+    background-image: url(img/image3.jpg);
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
